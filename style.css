@@ -1,0 +1,332 @@
+* {
+    padding: 0p;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    position: relative;
+}
+
+.container img {
+    width: 100%;
+     /* height: 100%;  */
+}
+
+.container .text-overlap {
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-overlap h1 {
+    font-size: 45px;
+}
+
+.text-overlap p {
+    font-size: 15px;
+}
+
+.text-overlap .btn {
+    font-size: 20px;  
+    padding: 15px 25px;
+    margin-top:30px ;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+.demo {
+   border-radius: 50%;
+   position: absolute;
+   bottom: 20px;
+   right: 20px;
+   position: fixed;
+}
+
+.material-symbols-outlined {
+   height: 70px;
+   width: 70px;
+   color: #ffffff;
+   background-color: rgb(21, 21, 59);
+}
+
+/* ------------ contact form feiled design -------------- */
+
+/* .form-field {
+   display: none; 
+   margin-top: 10px;
+}
+
+.show-form-field .form-field {
+   display: block;
+}
+
+
+.form-field {
+   width: 100%;
+   padding: 10px;
+   margin-top: 5px;
+   box-sizing: border-box;
+   background-color: #25D366;
+   display: none; 
+
+} */
+
+/* Popup container */
+.chat-popup {
+   display: none;
+   position: fixed;
+   bottom: 0;
+   right: 15px;
+   border: 3px solid #f1f1f1;
+   z-index: 9;
+ }
+ 
+ /* Popup content */
+ .chat-popup-content {
+   max-width: 300px;
+   padding: 20px;
+   background-color: #f1f1f1;
+ }
+ 
+ /* Close button */
+ .close {
+   float: right;
+   font-size: 20px;
+   font-weight: bold;
+   cursor: pointer;
+ }
+ 
+ .close:hover {
+   color: #000;
+ }
+ 
+ /* Form styles (you can customize further) */
+ form {
+   margin-top: 20px;
+ }
+ 
+ input[type="text"],
+ input[type="email"],
+ textarea {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+ }
+ 
+ .chat-popup  button[type="submit"] {
+   width: 100%;
+   padding: 10px;
+   background-color: #4CAF50;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ 
+ button[type="submit"]:hover {
+   background-color: #45a049;
+ }
+
+/* ------------- contact form feiled end -------------- */
+
+/* ---------------- Container2 Start -------------------- */
+.container2 {
+   background-color: #ffffff;
+}
+
+.container2 .heading {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    color: #05051f;
+}
+
+ .images {
+     display: flex;
+    margin: 60px auto;
+}
+
+.images img {
+    justify-content: space-around;
+    border-radius: 50%; 
+    /* height: 90% ; */
+    height: 350px;
+    width: 350px;
+    margin: 0 20px;
+}
+
+.images h2  {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.images p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+ .myslides {
+    display: none;
+ }
+ img {
+    vertical-align: middle;
+ }
+/* ----------------------  Container2 END ----------------- */
+
+
+ /* -------------------- Container3 Start ---------------- */
+ .container3 {
+    background-color: black;
+ }
+
+ .container3 h1 {
+    color: #2e3f74;
+    text-align: center;
+    padding: 60px;
+    font-size: 50px;
+ }
+
+ .myslider {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    max-width: 90%;
+    position: relative;
+    margin: auto;
+    padding-bottom: 90px;
+    /* background-color: crimson; */
+    gap: 50px;
+    transition: all is ease;
+ }
+
+
+ .arrow {
+   cursor: pointer;
+   width: auto;
+   width: auto;
+   padding: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+ }
+
+ .arrow:hover {
+   /* background-color: rgba(0,0,0,0.8); */
+   background-color: grey;
+ }
+
+  .frame {
+    /* width: 800px;
+    height: 300px; */
+   overflow: hidden; 
+   box-shadow: -1px 1px 10px rgba(0, 0, 0, .5);
+ } 
+
+ .slider {
+    display: flex; 
+    transition: all is ease;
+ }
+
+ .image {
+   max-width: 100%;
+   height: 600px;
+   object-fit: cover;
+ }
+
+
+ /* -----------------------  container3 END ---------------------- */
+
+/* ----------------------  container4 Start --------------------- */
+ .container4 {
+    text-align: center;
+    background-color: #ffffff;
+ }
+
+ .container4  h1 {
+    color: #2e3f74;
+    text-align: center;
+    padding: 60px 0;
+    font-size: 50px;
+ }
+  
+  .container4 table {
+   display: inline;
+ }
+
+ .table  {
+   color: #575555;
+   justify-content: space-between;
+   justify-content: space-around;
+   margin-bottom: 60px;
+ }
+
+ .row1 {
+   padding-right: 150px;
+ }
+
+ /* ----------------- Container4 END ------------------- */
+  
+footer {
+   text-align: center;
+   background-color: #000000;
+   color: #ffffff;
+   padding-top: 60px;
+   padding-bottom: 75px;
+}
+
+footer h4 {
+   padding-top: 25px  ;
+   padding-bottom: 40px;
+}
+
+ /* Style for the WhatsApp button */
+.whatsapp-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #25D366; /* WhatsApp green color  */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.whatsapp-btn:hover {
+   background-color: #22b458;
+}
+  
+  /* Style for the WhatsApp logo */
+  .whatsapp-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    fill: #fff;
+  }
+
+
+
+
+
+@media (max-width: 1250px) {
+    .images  {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
